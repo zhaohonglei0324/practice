@@ -1,7 +1,7 @@
 package practice;
 
 public class AP {
-	static int i=47;  //static成员变量：含有static时，i 指的是静态变量，只加载一次；而去掉static之后，每次调用都要重新加载，所以不会被覆盖掉
+	static int i=47;  
 	
 public void call(){
 	for (i=0;i<3;i++){
